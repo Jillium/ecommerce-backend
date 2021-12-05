@@ -26,7 +26,7 @@
   Javascript,Node
 
   ### Installation Instructions
-  Clone the repository. Also install MySQL2, Sequelize, express, and dotenv. Use the command npm i mysql2 sequelize express dotenv
+  Clone the repository. Also install MySQL2, Sequelize, express, and dotenv. Use the command npm i mysql2 sequelize express dotenv. Make sure your mysql server is running, and use the command npm run seed to seed your database. Then you can start your server with the command npm run start, and test your routes in insomnia or whichever application you prefer. 
 
   ### What will the app be used for? 
   This application will be used as a backend to an ecommerce site. 
@@ -35,7 +35,7 @@
   Fork a copy of the repo and have fun!
 
   ### Tests 
-  N/A
+  Routes were tested using insomnia but you may use whichever testing option you prefer. 
 
   ### Credits and Contributors 
   n/a
