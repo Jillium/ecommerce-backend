@@ -82,7 +82,7 @@ router.put('/:id', (req, res) => {
     }
   }
   )
-  .then(categoryData => res.json(categoryData))
+  .then(categoryData => res.json({ message: "The category has been updated!" }))
   .catch(err => {
     res.status(404).json({ message: "No category found with this ID " });
   });

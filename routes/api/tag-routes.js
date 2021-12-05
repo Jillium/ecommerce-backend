@@ -81,7 +81,7 @@ router.put('/:id', (req, res) => {
     }
   }
   )
-  .then(tagData => res.json(tagData))
+  .then(tagData => res.json({ message: "The tag has been updated!" }))
   .catch(err => {
     res.status(404).json({ message: "No tag found with this ID " });
   });
