@@ -16,6 +16,9 @@
   ## Project Description 
   This was made for my coding bootcamp with the University of Utah. It was made to create and test routes for a backend to an ecommerce website. The backend is very important to ecommerce. Routes were created and tested to view products, categories and tags. Routes were also made to create new products, categories and tags, and also to update and delete. 
 
+  <img src = "./assets/images/screenshot1.png">
+  <img src = "./assets/images/screenshot2.png">
+
   
   
   
