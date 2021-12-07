@@ -99,7 +99,7 @@ router.delete('/:id', (req, res) => {
       res.status(404).json({ message: "No tag found with this id "});
       return;
     }
-    res.json(tagData);
+    res.json({ message: "The tag has been deleted" });
   })
   .catch(err => {
     res.status(500).json({ message: "There has been an error "})
