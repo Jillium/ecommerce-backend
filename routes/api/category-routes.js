@@ -89,7 +89,7 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-  // delete a category by its `id` value
+  // delete one category by its `id` value
   Category.destroy({
     where: {
       id: req.params.id
@@ -97,13 +97,13 @@ router.delete('/:id', (req, res) => {
   })
   .then(categoryData => {
     if (!categoryData) {
-      res.status(404).json({ message: "No category found with this id "});
+      res.status(404).json({ message: "No product found with this id "});
       return;
     }
-    res.json({ message: "The category has been deleted!" });
+    res.json({ message: "The product has been deleted! "});
   })
   .catch(err => {
-    res.status(500).json({ message: "There has been an error "})
+    res.status(500).json({ message: "There has been an error" })
   })
 });
 
